@@ -1,13 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+.did {
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.the {
+  font-family: "Bungee Spice", sans-serif;
+}
+.front {
+  font-family: "Bungee Tint", sans-serif;
+  text-decoration: overline;
+}
+.developer {
+  font-family: "Pacifico", cursive;
+  text-decoration: line-through;
+}
+.take {
+  font-family: "Caveat", cursive;
+}
+.up {
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: underline;
+}
+.gardening {
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(20, 300, 20);
+}
+.because {
+  font-family: "Permanent Marker", cursive;
+}
+.they {
+  font-family: "Indie Flower", cursive;
+}
+.wanted {
+  font-family: "Doto", sans-serif;
+}
+.to {
+  color: #de6649;
+}
+.their {
+  color: #4971de;
+  font-weight: normal;
+}
+.improve {
+  color: #de9149;
+  font-weight: 700;
+}
+.root {
+  color: #49bfde;
+  font-weight: 400;
+}
+.skills {
+  color: #e0231f;
+  font-weight: bold;
+  text-decoration: none;
+}
 body,
 html {
   width: 100%;
@@ -59,7 +112,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +121,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,12 +130,12 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
+/* DID word 
 
-.didDLetter {
+*.didDLetter {
 }
 
 .didILetter {
@@ -91,9 +144,9 @@ body {
 .didDTwoLetter {
 }
 
-/* THE word */
+/* THE word 
 
-.theTLetter {
+/*.theTLetter {
 }
 
 .theHLetter {
@@ -102,7 +155,7 @@ body {
 .theELetter {
 }
 
-/* FRONT-END word */
+/* FRONT-END word 
 
 .frontendFLetter {
 }
@@ -128,9 +181,10 @@ body {
 .frontendDLetter {
 }
 
-/* DEVELOPER word */
+/* DEVELOPER word 
 
 .developerDLetter {
+  text-transform: uppercase;
 }
 .developerELetter {
 }
@@ -149,7 +203,7 @@ body {
 .developerRLetter {
 }
 
-/* TAKE word */
+/* TAKE word 
 
 .takeTLetter {
 }
@@ -160,14 +214,14 @@ body {
 .takeELetter {
 }
 
-/* UP word */
+/* UP word 
 
 .upULetter {
 }
 .upPLetter {
 }
 
-/* GARDENING word */
+/* GARDENING word 
 
 .gardeningGLetter {
 }
@@ -188,7 +242,7 @@ body {
 .gardeningGTwoLetter {
 }
 
-/* BECAUSE word */
+/* BECAUSE word 
 
 .becauseBLetter {
 }
@@ -205,7 +259,7 @@ body {
 .becauseETwoLetter {
 }
 
-/* THEY word */
+/* THEY word 
 
 .theyTLetter {
 }
@@ -216,7 +270,7 @@ body {
 .theyYLetter {
 }
 
-/* WANTED word */
+/* WANTED word 
 
 .wantedWLetter {
 }
@@ -231,14 +285,14 @@ body {
 .wantedDLetter {
 }
 
-/* TO word */
+/* TO word 
 
 .toTLetter {
 }
 .toOLetter {
 }
 
-/* IMPROVE word */
+/* IMPROVE word 
 
 .improveILetter {
 }
@@ -255,7 +309,7 @@ body {
 .improveELetter {
 }
 
-/* THEIR word */
+/* THEIR word 
 
 .theirTLetter {
 }
@@ -268,7 +322,7 @@ body {
 .theirRLetter {
 }
 
-/* ROOT word */
+/* ROOT word 
 
 .rootRLetter {
 }
@@ -279,7 +333,7 @@ body {
 .rootTLetter {
 }
 
-/* SKILLS word */
+/* SKILLS word 
 
 .skillsSLetter {
 }
@@ -294,11 +348,14 @@ body {
 .skillsSTwoLetter {
 }
 
-/* SYMBOLS */
+/* SYMBOLS 
 
 .hyphen {
 }
 .exclamation-mark {
 }
 .question-mark {
+}*/
+span {
+  font-size: 50px;
 }
